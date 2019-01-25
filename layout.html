@@ -1,0 +1,110 @@
+<html>
+<style>
+
+#section{
+background-color: gray;
+border-style:solid;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+margin-bottom: 10px;
+    width: 250px;
+   height:200px;
+pading:20px;  
+}
+
+#article {
+background-color: gray;
+border-style:solid;
+    clear:both;
+    margin-left: 20px;
+    width: 250px;
+    height:300px;
+}
+
+#aside {
+background-color:yellowgreen;
+border-style:solid;
+    float:right;
+    margin-right: 70px;
+    margin-top: -510px;
+    width: 910px;
+height:450;
+    padding:25px;
+}
+</style>
+
+
+<body>
+<div id="section"><br>
+
+<form> 
+<h3><b>CDF Requirements</b></h3>
+
+<ul >
+       <li><a  href="C:/Users/USER/Desktop/Softsense/t1.html" >Document Management System</a></li>
+       <li><a href="C:/Users/USER/Desktop/Softsense/DMS1.htm" >Open Source DBMS</a></li>
+    <li><a href="#">Security Algorthm</a></li>
+    <li><a href="#">Usage</a></li>
+    <li><a href="#">Testing</a></li> 
+   <li><a href="#">Deployment</a></li>
+</ul>
+<a href="C:/Users/USER/Desktop/Softsense/t1.html">table</a><br>
+    
+</form></div><br>
+
+<div id="article" algn="center"><br>
+
+
+<a onclick="myFunction1()" href="#aside">school</a><br>
+<script>
+ function myFunction1()
+{
+var text1="Dharampeth Girls High School";
+var text2="Shri datta meghe polytechnic";
+var text3="G.H Raisoni Institute of Engineering and Technology";
+document.getElementById("aside").innerHTML=text1;
+
+}   
+</script>
+<p><a onclick="myFunction2()" href="#aside1">collage</a><br>
+<script>
+ function myFunction2()
+{
+var text1="Dharampeth Girls High School";
+var text2="Shri datta meghe polytechnic";
+var text3="G.H Raisoni Institute of Engineering and Technology";
+
+document.getElementById("aside").innerHTML=text2;
+
+}   
+</script></p>
+
+<a onclick="myFunction3()" href="#asiden">university</a><br>
+
+<script>
+ function myFunction3()
+{
+var text1="Dharampeth Girls High School";
+var text2="Shri datta meghe polytechnic";
+var text3="G.H Raisoni Institute of Engineering and Technology";
+
+document.getElementById("aside").innerHTML=text3;
+
+}  
+ 
+</script>
+
+
+
+
+
+
+
+</div>
+<div id="aside"align="center"><button><a  href="C:/Users/USER/Desktop/Softsense/layout.html">Back</a></button>
+
+ 
+</div>
+</body>
+</html>
